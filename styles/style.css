@@ -1,7 +1,10 @@
 /* Bendras stilius: */
-
-
-
+.nav-wrapper {
+    background: gray;
+}
+.page-footer{
+    background: gray;
+}
 
 
 /* Vardas1 stiliaus kodas: */
@@ -11,7 +14,6 @@
 
 
 /* Aušros stiliaus kodas: */
-
 
 
 
