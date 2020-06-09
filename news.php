@@ -3,7 +3,7 @@
 
 
 
-<!-- Čia galerijos puslapio vidinė dalis -->
+<h1>News</h1>
 
 
 
