@@ -10,10 +10,10 @@
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="https://facebook.com/vilniuscoding/?ref=aymt_homepage_panel">Facebook</a></li>
-                  <li><a class="grey-text text-lighten-3" href="https://instagram.com/vilniuscodingschool/">Instagram</a></li>
-                  <li><a class="grey-text text-lighten-3" href="https://linkedin.com">Linkedin</a></li>
-                  <li><a class="grey-text text-lighten-3" href="https:/?meetup.com/Code-Coffee-Meetup-by-Vilnius-Coding-School/">Meetup</a></li>
+                  <li><a target="_blank" class="grey-text text-lighten-3" href="https://facebook.com/vilniuscoding/?ref=aymt_homepage_panel">Facebook</a></li>
+                  <li><a target="_blank" class="grey-text text-lighten-3" href="https://instagram.com/vilniuscodingschool/">Instagram</a></li>
+                  <li><a target="_blank" class="grey-text text-lighten-3" href="https://linkedin.com">Linkedin</a></li>
+                  <li><a target="_blank" class="grey-text text-lighten-3" href="https://meetup.com/Code-Coffee-Meetup-by-Vilnius-Coding-School/">Meetup</a></li>
                 </ul>
               </div>
             </div>
@@ -21,7 +21,7 @@
           <div class="footer-copyright">
             <div class="container">
             © 2020 Copyright belongs to Team3
-            <a class="grey-text text-lighten-6 right" href="https://vilniuscoding.lt">Daugiau informacijos VSC puslapyje</a>
+            <a target="_blank" class="grey-text text-lighten-6 right" href="https://vilniuscoding.lt">Daugiau informacijos apie kursus čia</a>
             </div>
           </div>
         </footer>

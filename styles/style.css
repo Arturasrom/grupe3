@@ -14,7 +14,13 @@
 
 
 /* Aušros stiliaus kodas: */
-
+h1{
+    text-align: center;
+    
+}
+.top img{
+    width: 100%;
+}
 
 
 
