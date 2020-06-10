@@ -52,10 +52,12 @@ h1.title {
 .top img {
     width: 100%;
 }
-
 .top {
     position: relative;
 }
+/* .parallax-container {
+    height: 600px;
+} */
 
 .container {
     width: 100%;
