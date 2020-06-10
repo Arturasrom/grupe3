@@ -66,9 +66,41 @@ h1{
 
 /* Luko stiliaus kodas: */
 
+.tabContainer{
+    width: 100%;
+    height: 350px;
+}
 
+.tabContainer .buttoContainer{
+    height: 15%;
+}
 
+.tabContainer .buttoContainer button{
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    background-color: grey;
+}
 
+.tabContainer .buttoContainer button:hover{
+    background-color: mediumblue;
+}
+
+.tabContainer .tabPanel{
+    height: 85%;
+    background-color: slategray;
+    color: blue;
+    text-align: center;
+    padding-top: 105px;
+    box-sizing: border-box;
+    font-size: 22px;
+    display: none;
+}
 
 /* Andriaus stiliaus kodas: */
 
@@ -82,3 +114,4 @@ h1{
 
 
 /* Povilo stiliaus kodas: */
+
