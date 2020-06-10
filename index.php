@@ -1,49 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-</html>
-
 <?php include "header.php" ?>
 <!-- Netrinam! -->
 
-<h1>Šešios savaitės su <br>Vilnius Coding School</h1>
-
-
 <div class="top">
   <img src="images/header.jpg" alt="topphoto">
-
+  <h1 class="title">Šešios savaitės su <br>Vilnius Coding School</h1>
 </div>
 
-<!-- <div class="konteineris"> -->
-<!-- </div> -->
-<div class="pamokos">
-  <div class="kalbos">
+<div class="container">
+  <div class="pamokos">
     <div class="c-sharp">
       <img src="images/csharp.png" alt="c">
-      <h2 class="c-sharp-name">C#</h2>
-      <h3 class="c-sharp-text">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati cum dignissimos ea rerum. Repellendus ut deserunt, voluptatum commodi atque aliquam maiores omnis odit aspernatur nemo adipisci voluptate debitis sed. Libero?
-      </h3>
+      <h4 class="c-sharp-name"><b>C#</b></h4>
+      <h5 class="c-sharp-text">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex expedita vitae perferendis praesentium dignissimos. Voluptas dolorem qui labore cum itaque accusantium unde doloremque, ipsa atque ex, autem quia quo pariatur?
+      </h5>
     </div>
 
     <div class="java">
       <img src="images/java.png" alt="jv">
-      <h2 class="java-name">JAVA</h2>
-      <h3 class="java-text">
+      <h4 class="java-name"><b>JAVA</b></h4>
+      <h5 class="java-text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates alias voluptatibus laudantium animi nemo voluptatum ipsam blanditiis harum sapiente! Hic inventore tempora delectus veniam consectetur eius et cumque iusto!
-      </h3>
+      </h5>
     </div>
 
     <div class="html">
       <img src="images/htmlcss.png" alt="">
-      <h2 class="html-name">HTML and CSS</h2>
-      <h3 class="html-text">
+      <h4 class="html-name"><b>HTML and CSS</b></h4>
+      <h5 class="html-text">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae repudiandae, impedit fugiat necessitatibus magnam hic non? Necessitatibus eveniet officia tempora unde consequuntur, culpa architecto rem, neque dolores voluptas cumque quibusdam!
-      </h3>
+      </h5>
     </div>
   </div>
 </div>

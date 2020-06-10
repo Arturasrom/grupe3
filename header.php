@@ -16,7 +16,6 @@
 
 <body>
 
-
   <nav>
     <div class="nav-wrapper">
       <a href="index.php" class="brand-logo"><img src="images/vilniuscoding2.png"" alt=""></a>

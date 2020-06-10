@@ -21,7 +21,7 @@
       <div class="footer-copyright">
         <div class="container">
           © 2020 Copyright belongs to Team3
-          <a target="_blank" class="grey-text text-lighten-6 right" href="https://vilniuscoding.lt">Daugiau informacijos apie kursus čia</a>
+          <a target="_blank" class="grey-text text-lighten-6 right" href="https://vilniuscoding.lt">More info about VCS</a>
         </div>
       </div>
     </footer>
