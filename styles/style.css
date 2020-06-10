@@ -12,13 +12,14 @@
 }
 
 
+
 /* Artūro stiliaus kodas: */
 h1 {
     text-align: center;
 }
 
-.konteienris {
-    position: relative;
+.news-h5 {
+   color: #3535ff;
 }
 
 
@@ -113,3 +114,4 @@ h1{
 
 
 /* Povilo stiliaus kodas: */
+
