@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="styles/style.css">
 
 
-  <title>Šešios savaitės su VSC</title>
+  <title>Six weeks with VSC</title>
 </head>
 
 <body>

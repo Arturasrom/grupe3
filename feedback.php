@@ -1,10 +1,11 @@
 <?php include "header.php" ?>
 <!-- Netrinam! -->
 
-<div class="col s12 m6 l3 right-align responsive-img">
+<div class="col s12 m6 l3 center-align responsive-img">
     <img src="images/feedback.jpg" alt="feedback nuotrauka">>
 </div>
 
+<div>
     <?php
     $servername = "localhost";
     $username = "root";
@@ -20,21 +21,19 @@
 
     if (isset($_GET["name"])) {
 
-        $name = $_GET["Data"];
+        $Data = $_GET["Data"];
         $name = $_GET["name"];
-        if (isset($_GET["name"])) {
-            $name = $_GET["name"];
-        } else {
-            $name = 0;
-        }
+        $Age = $_GET["Age"];
+        $feedback_text = $_GET["feedback_text"];
+
 
         $sql = "INSERT INTO feedback (Data, name, Age, feedback_text)
-    VALUES (Data, '$name', '$Age', 'feedback_text')";
+    VALUES ('$Data', '$name', '$Age', '$feedback_text')";
 
         if ($conn->query($sql) === TRUE) {
             echo "New record created successfully";
 
-            header("Location: http:/grupe3/index.php?status=success");
+            header("Location: http:/grupe3/feedback.php?status=success");
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
@@ -44,6 +43,7 @@
             echo "<p>Pavyko sekmingai ikelti i duomenu baze<p>";
         }
     }
+
     $sql = "SELECT Data, name, Age, feedback_text FROM feedback";
     $result = $conn->query($sql);
 
@@ -51,7 +51,7 @@
         echo "<ul>";
         // output data of each row
         while ($row = $result->fetch_assoc()) {
-            echo "<li>" . "Data: " . $row["name"]. " - Age: " . $row["feedback_text"]. "<li>";
+            echo "<li>" .  "Data: " . $row["name"] . " Age: " . $row["feedback_text"] . "<li>";
         }
         echo "</ul>";
 
@@ -61,20 +61,17 @@
     }
     $conn->close();
     ?>
-
+</div>
 
 <form action="">
-<input type="date" name="Data">
-<input type="text" name="name">
-<input type="number" name="Age">
-<input type="text" name="feedback_text">
-<button>Issaugoti</button>
+
+ Date: <input type="text" name="Data">
+ Your name:   <input type="text" name="name">
+ Your age:   <input type="number" name="Age">
+ Please enter Your feedback:   <input type="text" name="feedback_text">
+    <button>Submit feedback</button>
+
 </form>
-
-  
-
-
-
 
 <?php include "footer.php" ?>
 <!-- Netrinam! -->
