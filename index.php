@@ -2,8 +2,11 @@
 <!-- Netrinam! -->
 
 <div class="top">
+  <!-- <div class="parallax-container">
+      <div class="parallax"><img src="images/parallax1.jpg"></div>
+    </div> -->
   <img src="images/header.jpg" alt="topphoto">
-  <h1 class="title">Šešios savaitės su <br>Vilnius Coding School</h1>
+  <h1 class="title">Six weeks with <br>Vilnius Coding School</h1>
 </div>
 
 <div class="container">

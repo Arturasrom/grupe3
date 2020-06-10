@@ -52,7 +52,6 @@ h1.title {
 .top img {
     width: 100%;
 }
-
 .top {
     position: relative;
 }
@@ -85,28 +84,27 @@ footer .grey-text img {
 
 /* Luko stiliaus kodas: */
 
-h2{
-    text-align: center;   
-    color: #2b475f;
-    position: absolute;
-    top: 10%;
+h3{
+    text-align: center; 
+    color: black;
+    top: 120px;
     left: 50%;
-    margin: -8px;
+    margin: 0;
 }
   
 .tabContainer{
     width: 100%;
     height: 350px;
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    border-left: auto;
+    border-right: auto;
 }
 
-.tabContainer .buttoContainer {
+.tabContainer .buttonContainer {
     height: 15%;
 }
 
-.tabContainer .buttoContainer button {
+.tabContainer .buttonContainer button {
     width: 20%;
     height: 100%;
     float: left;
@@ -118,7 +116,7 @@ h2{
     background-color: grey;
 }
 
-.tabContainer .buttoContainer button:hover {
+.tabContainer .buttonContainer button:hover {
     background-color: mediumblue;
 }
 
@@ -127,7 +125,7 @@ h2{
     background-color: slategray;
     color: blue;
     text-align: center;
-    padding-top: 105px;
+    
     box-sizing: border-box;
     font-size: 22px;
     display: none;
