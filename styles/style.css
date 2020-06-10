@@ -18,6 +18,11 @@
     color: #3535ff;
 }
 
+.news-button {
+    text-align: right;
+}
+
+
 /* Aušros stiliaus kodas: */
 
 /* HEADER */
@@ -55,9 +60,6 @@ h1.title {
 .top {
     position: relative;
 }
-/* .parallax-container {
-    height: 600px;
-} */
 
 .container {
     width: 100%;
