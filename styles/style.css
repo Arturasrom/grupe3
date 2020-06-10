@@ -1,11 +1,7 @@
 /* Bendras stilius: */
 
 .nav-wrapper {
-    background: gray;
-}
-
-.brand-logo img {
-    height: 100px;
+    background: #2b475f;
 }
 
 .page-footer {
@@ -15,7 +11,6 @@
 /* Artūro stiliaus kodas: */
 
 .news-h1 {
-   
     text-align: center;
 }
 
@@ -29,27 +24,68 @@
 
 
 /* Aušros stiliaus kodas: */
-h1{
+
+/* HEADER */
+
+.brand-logo img {
+    height: 100px;
+}
+
+@media only screen and (min-width: 601px) {
+    nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+        height: 100px;
+        line-height: 100px;
+    }
+}
+
+/* /////////////////////////// */
+
+h1 {
     text-align: center;
-    
 }
-.top img{
+
+h1.title {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.top img {
     width: 100%;
 }
 
+.top {
+    position: relative;
+}
 
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-.pamokos{
+.pamokos {
     display: flex;
-    border-radius: 10%;
-}
-.kalbos img{
-    width: 100%;
-}
-.kalbos {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.pamokos img {
+    width: 100%;
+}
+
+/* /////////////////////////// */
+
+/* FOOTER */
+
+footer .grey-text img {
+    width: 10%;
 }
 
 /* Luko stiliaus kodas: */
