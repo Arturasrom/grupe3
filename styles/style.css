@@ -8,7 +8,13 @@
 
 
 /* Artūro stiliaus kodas: */
+h1 {
+    text-align: center;
+}
 
+.konteienris {
+    position: relative;
+}
 
 
 
