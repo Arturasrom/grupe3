@@ -66,9 +66,23 @@ h1{
 
 /* Luko stiliaus kodas: */
 
+h2{
+    text-align: center;   
+    color: #2b475f;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin: -8px;
+    
+}
+
 .tabContainer{
     width: 100%;
     height: 350px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .tabContainer .buttoContainer{
@@ -101,7 +115,6 @@ h1{
     font-size: 22px;
     display: none;
 }
-
 /* Andriaus stiliaus kodas: */
 
 .card{

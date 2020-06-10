@@ -1,12 +1,9 @@
 <?php include "header.php" ?>
 
-
-
-<h1>About puslapis</h1>
-<link rel="stylesheet" type="text/css" href="styles/style.css">
+<h2>About puslapis</h2>
 <div style="padding: 20px">
     <div class="tabContainer">
-        <div class="buttomContainer">
+        <div class="buttonContainer">
             <button onclick="showPanel(0,'#C0C0C0')">Tab 1</button>
             <button onclick="showPanel(1,'#D3D3D3')">Tab 2</button>
             <button onclick="showPanel(2,'#C0C0C0')">Tab 3</button>
@@ -44,5 +41,4 @@
         </div>
     </div>
 </div>
-<script src="scripts/script.js"></script>
 <?php include "footer.php" ?>
