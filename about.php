@@ -1,6 +1,6 @@
 <?php include "header.php" ?>
 
-<h2>About puslapis</h2>
+<h3>About us</h3>
 <div style="padding: 20px">
     <div class="tabContainer">
         <div class="buttonContainer">
