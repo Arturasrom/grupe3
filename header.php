@@ -40,5 +40,4 @@
     <li><a href="feeback.php">Feedback</a></li>
   </ul>
 
-
   <!-- Čia pasikartojanti visuose puslapiuose viršutinė dalis -->
