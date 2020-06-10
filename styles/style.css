@@ -1,9 +1,14 @@
 /* Bendras stilius: */
 .nav-wrapper {
-    background: gray;
+    background: #2b475f;
 }
+
+.brand-logo img{
+    width: 50%;
+}
+
 .page-footer{
-    background: gray;
+    background: #2b475f;
 }
 
 
@@ -20,12 +25,39 @@ h1 {
 
 
 /* Aušros stiliaus kodas: */
-h1{
-    text-align: center;
-    
-}
+
+        /* HEADER */
+
+
 .top img{
     width: 100%;
+}
+
+        /* FOOTER */
+.grey-text img{
+    width: 10%;
+}
+.grey-text{
+    display: flex;
+    justify-content: center;
+}
+
+        /* INDEX */
+h1{
+    text-align: center;   
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-47%, -50%);
+    margin: -8px;
+}
+
+.konteineris{
+    width: 100%;
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
