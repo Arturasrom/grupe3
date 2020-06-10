@@ -16,7 +16,6 @@
 
 <body>
 
-
   <nav>
     <div class="nav-wrapper">
       <a href="index.php" class="brand-logo"><img src="images/vilniuscoding2.png"" alt=""></a>
@@ -25,8 +24,7 @@
         <li><a href="about.php">About</a></li>
         <li><a href="single_entry.php">Single entry</a></li>
         <li><a href="news.php">News</a></li>
-        <li><a href="contacts.php">Contacts</a></li>
-        <li><a href="feeback.php">Feedback</a></li>
+        <li><a href="feedback.php">Feedback</a></li>
       </ul>
     </div>
   </nav>
@@ -36,8 +34,7 @@
     <li><a href="about.php">About</a></li>
     <li><a href="single_entry.php">Single entry</a></li>
     <li><a href="news.php">News</a></li>
-    <li><a href="contacts.php">Contacts</a></li>
-    <li><a href="feeback.php">Feedback</a></li>
+    <li><a href="feedback.php">Feedback</a></li>
   </ul>
 
   <!-- Čia pasikartojanti visuose puslapiuose viršutinė dalis -->
