@@ -162,3 +162,20 @@ h3{
 }
 
 /* Povilo stiliaus kodas: */
+
+#feedback_form {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 80px;
+    width: 50%;
+  }
+
+
+  .db_results{
+    margin: auto;
+    width: 50%;
+    border: 3px solid gray;
+    padding: 10px;
+
+  }
