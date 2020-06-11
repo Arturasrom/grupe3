@@ -121,7 +121,7 @@ h3{
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
-    background-color: grey;
+    background-color: white;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     border-bottom: none;
@@ -133,8 +133,8 @@ h3{
 
 .tabContainer .tabPanel {
     height: 85%;
-    background-color: lightgray;
-    color: #2b475f;
+    background-color: white;
+    color: black;
     text-align: center;
     box-sizing: border-box;
     font-size: 22px;
