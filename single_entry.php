@@ -5,6 +5,7 @@
   <img src="C:\xampp\htdocs\grupe3\header.php" alt="">
 </div>
 
+<h1>Single etry</h1>
 <div class="card" style="width: 104rem;">
 <div class="card-img-top">
   <img  src="https://picsum.photos/200/200" alt="">
