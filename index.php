@@ -1,14 +1,15 @@
 <?php include "header.php" ?>
 <!-- Netrinam! -->
 
-<div class="top">
-  <img src="images/header.jpg" alt="topphoto">
+<div class="parallax-container">
   <h1 class="title">Six weeks with <br>Vilnius Coding School</h1>
-<div>
+  <div>
     <button class="main-button"><img src="images/success-radio.png" alt=""><a target="_blank" href=""></a>
-    Press here</button>
-    </div>
+      Press here</button>
+  </div>
+  <div class="parallax"><img src="images/header.jpg"></div>
 </div>
+
 
 <div class="container">
   <div class="middle-text">
@@ -20,26 +21,42 @@
 
 
 <div class="pamokos">
-  <div class="c-sharp">
-    <img src="images/csharp.jpg" alt="c">
-    <div class="container">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia maxime ea praesentium quidem adipisci voluptates officiis facere. Blanditiis pariatur necessitatibus delectus alias animi, voluptatum illum, tempore officiis praesentium unde omnis.</p>
+  <div class="parallax-container2">
+    <div class="parallax"><img src="images/csharp.jpg"></div>
+  </div>
+
+  <div class="container">
+    <div class="middle-text">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quae officiis obcaecati animi error aliquam, quidem, nostrum sapiente a maiores itaque beatae dolorem voluptatem ab quo, illo nisi illum esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reprehenderit asperiores quam doloremque neque, harum sed cupiditate fugiat dignissimos aspernatur quibusdam, reiciendis maxime. Natus voluptate assumenda dignissimos, explicabo quo ratione.
+      </p>
     </div>
   </div>
 
-  <div class="java">
-    <img src="images/java.jpg" alt="jv">
-    <div class="container">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia maxime ea praesentium quidem adipisci voluptates officiis facere. Blanditiis pariatur necessitatibus delectus alias animi, voluptatum illum, tempore officiis praesentium unde omnis.</p>
+  <div class="parallax-container2">
+    <div class="parallax"><img src="images/java.jpg"></div>
+  </div>
+
+  <div class="container">
+    <div class="middle-text">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quae officiis obcaecati animi error aliquam, quidem, nostrum sapiente a maiores itaque beatae dolorem voluptatem ab quo, illo nisi illum esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reprehenderit asperiores quam doloremque neque, harum sed cupiditate fugiat dignissimos aspernatur quibusdam, reiciendis maxime. Natus voluptate assumenda dignissimos, explicabo quo ratione.
+      </p>
     </div>
   </div>
 
-  <div class="html">
-    <img src="images/webdesign.jpg" alt="">
-    <div class="container">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia maxime ea praesentium quidem adipisci voluptates officiis facere. Blanditiis pariatur necessitatibus delectus alias animi, voluptatum illum, tempore officiis praesentium unde omnis.</p>
+  <div class="parallax-container2">
+    <div class="parallax"><img src="images/webdesign.jpg"></div>
+  </div>
+
+  <div class="container">
+    <div class="middle-text">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quae officiis obcaecati animi error aliquam, quidem, nostrum sapiente a maiores itaque beatae dolorem voluptatem ab quo, illo nisi illum esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reprehenderit asperiores quam doloremque neque, harum sed cupiditate fugiat dignissimos aspernatur quibusdam, reiciendis maxime. Natus voluptate assumenda dignissimos, explicabo quo ratione.
+      </p>
     </div>
   </div>
+
 </div>
 
 
