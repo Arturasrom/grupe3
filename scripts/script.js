@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Parallax.init(elems);
   });
 
+  
 
 
 
