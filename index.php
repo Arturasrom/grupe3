@@ -1,6 +1,10 @@
 <?php include "header.php" ?>
 <!-- Netrinam! -->
 
+<div class="parallax-container">
+      <div class="parallax"><img src="images/header.jpg"></div>
+    </div>
+
 <div class="top">
   <img src="images/header.jpg" alt="topphoto">
   <h1 class="title">Six weeks with <br>Vilnius Coding School</h1>
