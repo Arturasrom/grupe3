@@ -56,9 +56,7 @@
 
 /* /////////////////////////// */
 
-h1 {
-    text-align: center;
-}h
+
 
 h1.title {
     text-align: center;
@@ -78,7 +76,7 @@ h1.title {
 }
 .main-button{
     border: none;
-    color: white;
+    color: #505050;
     padding: 12px 27px;
     text-align: center;
     text-decoration: none;
@@ -95,7 +93,7 @@ h1.title {
     border-radius: 10%;
 }
 .main-button img{
-    width: 10%;
+    width: 11%;
 }
 .active, .main-button:hover{
     background-color: teal;

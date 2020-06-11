@@ -6,7 +6,7 @@
   <h1 class="title">Six weeks with <br>Vilnius Coding School</h1>
   <div>
     <button class="main-button"><img src="images/success-radio.png" alt=""><a target="_blank" href=""></a>
-    Press here</button>
+      Press here</button>
   </div>
 </div>
 
