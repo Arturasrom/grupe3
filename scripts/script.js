@@ -2,6 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
     var instances = M.Sidenav.init(elems);
+});
 
 
 /* Artūro  kodas: */
@@ -12,10 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Tooltip.init(elems);
   });
 
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.tooltipped');
-    var instances = M.Tooltip.init(elems);
-  });
+
 
 
 /* Aušros  kodas: */
@@ -31,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   
 /* Luko  kodas: */
-});
+
 var tabButtons=document.querySelectorAll(".tabContainer .buttonContainer button");
 var tabPanels=document.querySelectorAll(".tabContainer .tabPanel");
 
@@ -45,7 +43,9 @@ function showPanel(panelIndex) {
     });
     tabPanels[panelIndex].style.display="block";
 }
-showPanel(0);
+if(tabButtons.length) {
+  showPanel(0);
+}
 /* Andriaus  kodas: */
 
 

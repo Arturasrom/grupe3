@@ -3,7 +3,6 @@
 
 <div class="container">
 
-    <!-- <img class="news-bck-img" src="images/header.jpg" alt="topphoto"> -->
 
     <div class="container-news">
 
