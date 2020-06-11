@@ -37,7 +37,7 @@ function showPanel(panelIndex,colorCode) {
         node.style.color="";
     });
     tabButtons[panelIndex].style.backgroundColor=colorCode;
-    tabButtons[panelIndex].style.color="white";
+    tabButtons[panelIndex].style.color="#025a5a";
     tabPanels.forEach(function(node){
         node.style.display="none";
     });
@@ -45,7 +45,7 @@ function showPanel(panelIndex,colorCode) {
     tabPanels[panelIndex].style.backgroundColor=colorCode;
 }
 if(tabButtons.length) {
-  showPanel(0,'#D3D3D3');
+  showPanel(0,'transparent');
 }
 /* Andriaus  kodas: */
 

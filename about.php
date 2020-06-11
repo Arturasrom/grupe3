@@ -1,14 +1,15 @@
 <?php include "header.php" ?>
 
-<h3>About us</h3>
-<div style="padding: 20px">
+<div class="content">
+    <img src="https://picsum.photos/id/1/800/527?grayscale&blur=2">
+    <h3>About us</h3>
     <div class="tabContainer">
         <div class="buttonContainer">
-            <button onclick="showPanel(0,'#C0C0C0')">Artūras</button>
-            <button onclick="showPanel(1,'#D3D3D3')">Aušra</button>
-            <button onclick="showPanel(2,'#C0C0C0')">Lukas</button>
-            <button onclick="showPanel(3,'#D3D3D3')">Andrius</button>
-            <button onclick="showPanel(4,'#C0C0C0')">Povilas</button>
+            <button onclick="showPanel(0,'transparent')">Artūras</button>
+            <button onclick="showPanel(1,'transparent')">Aušra</button>
+            <button onclick="showPanel(2,'transparent')">Lukas</button>
+            <button onclick="showPanel(3,'transparent')">Andrius</button>
+            <button onclick="showPanel(4,'transparent')">Povilas</button>
         </div>
         <div class="tabPanel">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
