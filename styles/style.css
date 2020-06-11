@@ -50,7 +50,7 @@
 
 h1 {
     text-align: center;
-}
+}h
 
 h1.title {
     text-align: center;
@@ -118,25 +118,25 @@ h3{
 }
 
 .tabContainer .buttonContainer button {
-    width: 20%;
+    width: auto;
     height: 100%;
     float: left;
-    margin: 1px;
-    outline: none;
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
-    background-color: grey;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: none;
 }
 
 .tabContainer .buttonContainer button:hover {
     background-color: #2b475f;
+    color: white;
 }
 
 .tabContainer .tabPanel {
     height: 85%;
-    background-color: lightgray;
     color: #2b475f;
     text-align: center;
     box-sizing: border-box;
