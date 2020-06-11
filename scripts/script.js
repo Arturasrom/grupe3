@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
 /* Artūro  kodas: */
 
 
+ 
+
+
 
 /* Aušros  kodas: */
 document.addEventListener('DOMContentLoaded', function() {
