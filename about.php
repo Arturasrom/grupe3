@@ -4,11 +4,11 @@
 <div style="padding: 20px">
     <div class="tabContainer">
         <div class="buttonContainer">
-            <button onclick="showPanel(0)">Artūras</button>
-            <button onclick="showPanel(1)">Aušra</button>
-            <button onclick="showPanel(2)">Lukas</button>
-            <button onclick="showPanel(3)">Andrius</button>
-            <button onclick="showPanel(4)">Povilas</button>
+            <button onclick="showPanel(0,'#C0C0C0')">Artūras</button>
+            <button onclick="showPanel(1,'#D3D3D3')">Aušra</button>
+            <button onclick="showPanel(2,'#C0C0C0')">Lukas</button>
+            <button onclick="showPanel(3,'#D3D3D3')">Andrius</button>
+            <button onclick="showPanel(4,'#C0C0C0')">Povilas</button>
         </div>
         <div class="tabPanel">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
