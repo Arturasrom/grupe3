@@ -43,7 +43,7 @@
         }
     }
 
-    $sql = "SELECT Data, name, Age, feedback_text FROM feedback";
+    $sql = "SELECT Data , name, Age, feedback_text FROM feedback";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
@@ -53,9 +53,9 @@
         while ($row = $result->fetch_assoc()) {
             echo "<tr>";
             echo 
-            "<td>" .  "Data: " . $row["Data"]. "</td>".
-            "<td> Name: ". $row["name"] . "
-            </td><td> Age: " . $row["Age"] . "
+            // "<td>" .  "Data: " . $row["Data"]. "</td>".
+            "<td> Name: ". $row["name"] . "</td>
+            <td> Age: " . $row["Age"] . "
             </td><td>" .  "Feedback: " . $row["feedback_text"]. "</td>";
             echo "</tr>";
         }
@@ -86,8 +86,8 @@ input[type=text] {
   <input type="textData" id="Data" name="Data"> -->
   <label for="lname">Name</label>
   <input type="Name" id="name" name="Name">
-  <!-- <label for="Age">Your age</label>
-  <input type="int" id="Age" name="Age"> -->
+  <label for="Age">Your age</label>
+  <input type="int" id="Age" name="Age">
   <br><label for="lname">Please enter Your feedback! </label>
   <input type="text" id="feedback_text" name="feedback_text"> <br>
 
