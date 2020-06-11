@@ -3,8 +3,15 @@
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <h5 class="white-text">Footer Content</h5>
-            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            <h5 class="white-text">Contacts</h5>
+            <p class="grey-text text-lighten-4">
+              <h6 class="contacts"> Ulonų g. 5 <br>
+              Ist stairway, 3th floor <br>
+              No. 313, Vilnius <br>
+              info@vilniuscoding.lt <br>
+              +370 606 75071
+              </h6>
+            </p>
           </div>
           <div class="col l4 offset-l2 s12">
             <h5 class="white-text">Links</h5>
@@ -20,7 +27,7 @@
       <div class="footer-copyright">
         <div class="container">
           © 2020 Copyright belongs to Team3
-          <a target="_blank" class="grey-text text-lighten-6 right" href="https://vilniuscoding.lt">Daugiau informacijos apie kursus čia</a>
+          <a target="_blank" class="grey-text text-lighten-6 right" href="https://vilniuscoding.lt">More info about VCS</a>
         </div>
       </div>
     </footer>

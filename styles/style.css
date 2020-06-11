@@ -1,79 +1,193 @@
 /* Bendras stilius: */
+
 .nav-wrapper {
-    background: #2b475f;
+    background: #025a5a;
 }
 
-.brand-logo img{
-    width: 50%;
+.page-footer {
+    background: #025a5a;
 }
-
-.page-footer{
-    background: #2b475f;
-}
-
 
 /* Artūro stiliaus kodas: */
-h1 {
+
+.news-h1 {
     text-align: center;
 }
 
-.konteienris {
-    position: relative;
+.news-h5 {
+    color: #3535ff;
 }
 
+.news-button {
+    text-align: right;
+}
 
+.button-news {
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: white;
+    color:#2b475f;
+    border: 2px solid #2b475f; 
+}
 
 
 /* Aušros stiliaus kodas: */
 
-        /* HEADER */
+/* HEADER */
 
-
-.top img{
-    width: 100%;
+.brand-logo img {
+    height: 60px;
 }
 
-        /* FOOTER */
-.grey-text img{
-    width: 10%;
-}
-.grey-text{
-    display: flex;
-    justify-content: center;
+@media only screen and (min-width: 601px) {
+    nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+        height: 60px;
+        line-height: 60px;
+    }
 }
 
-        /* INDEX */
-h1{
-    text-align: center;   
+/* /////////////////////////// */
+
+h1 {
+    text-align: center;
+}
+
+h1.title {
+    text-align: center;
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-47%, -50%);
-    margin: -8px;
+    transform: translate(-50%, -50%);
+    margin: 0;
 }
 
-.konteineris{
+.top img {
     width: 100%;
-    max-width: 800px; 
+}
+.top {
+    position: relative;
+}
+.main-button{
+    border: none;
+    color: white;
+    padding: 12px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    border-radius: 10%;
+}
+.main-button img{
+    width: 10%;
+}
+.active, .main-button:hover{
+    background-color: teal;
+    color: white;
+}
+.container {
+    width: 100%;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.pamokos {
+    /* display: flex; */
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    object-fit: cover;
+    
+}
 
+.pamokos img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+.c-sharp, .java, .html img{
+    filter: grayscale(90%);
+}
+.parallax-container {
+    height: 300px;
+  }
+  .parallax img{
+      width: 100%;
+  }
 
+/* /////////////////////////// */
+
+/* FOOTER */
+
+footer .grey-text img {
+    width: 10%;
+}
+h6.contacts{
+    line-height: 120%;
+}
 
 /* Luko stiliaus kodas: */
 
-
-
-
-
-/* Andriaus stiliaus kodas: */
-.top img{
-width: 100%;
-
+h3{
+    text-align: center; 
+    color: black;
+    top: 120px;
+    left: 50%;
+    margin: 0;
 }
+  
+.tabContainer{
+    width: 100%;
+    height: 350px;
+    max-width: 800px;
+    border-left: auto;
+    border-right: auto;
+}
+
+.tabContainer .buttonContainer {
+    height: 15%;
+}
+
+.tabContainer .buttonContainer button {
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin: 1px;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: grey;
+}
+
+.tabContainer .buttonContainer button:hover {
+    background-color: #2b475f;
+}
+
+.tabContainer .tabPanel {
+    height: 85%;
+    background-color: lightgray;
+    color: #2b475f;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 22px;
+    display: none;
+}
+/* Andriaus stiliaus kodas: */
+
+
+
+
 .card{
     
     border: 5px solid rgb(0, 0, 0);
@@ -113,4 +227,4 @@ margin-top: 100px;
     margin-bottom: 90px;
 }
 
-/* Povilo stiliaus kodas: */
+  
