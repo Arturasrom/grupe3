@@ -186,8 +186,6 @@ h3{
 /* Andriaus stiliaus kodas: */
 
 
-
-
 .card{
     
     border: 5px solid rgb(0, 0, 0);
@@ -228,3 +226,46 @@ margin-top: 100px;
 }
 
   
+/* Povilo kodas */
+
+.feedback img 
+{
+    width: 100%;
+    
+    
+}
+
+.db_results 
+{
+    border:  2px solid #025a5a; ; 
+    border-style: dotted;
+    border-collapse: collapse;
+    
+
+} 
+input[type=text] 
+{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  /* color: #025a5a; */
+  font-size: large;
+  
+}
+
+#feedback_form label {
+
+ 
+    font-size: 20px;
+    color: #025a5a;
+
+}
+
+#feedback_form {
+
+ 
+    border-collapse: collapse;
+    
+
+}
