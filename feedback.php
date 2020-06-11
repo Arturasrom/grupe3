@@ -26,7 +26,6 @@
         $Age = $_GET["Age"];
         $feedback_text = $_GET["feedback_text"];
 
-
         $sql = "INSERT INTO feedback (Data, name, Age, feedback_text)
     VALUES ('$Data', '$name', '$Age', '$feedback_text')";
 
@@ -63,13 +62,15 @@
     ?>
 </div>
 
+
 <form action="">
 
- Date: <input type="text" name="Data">
- Your name:   <input type="text" name="name">
- Your age:   <input type="number" name="Age">
- Please enter Your feedback:   <input type="text" name="feedback_text">
-    <button>Submit feedback</button>
+ Date:<input type="text" name="Data">
+ Your name:<input type="text" name="name">
+ Your age:<input type="number" name="Age">
+ Please enter Your feedback:<input type="text" name="feedback_text">
+    
+ <button>Submit feedback</button>
 
 </form>
 
