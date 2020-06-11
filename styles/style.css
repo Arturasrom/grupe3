@@ -222,12 +222,17 @@ h3{
     border: 2px solid white;
 }
 
-.content img {
+.content .fonas {
     width: 100%;
 }
 .content {
     position: relative;
     padding-top: 4px;
+}
+
+.profilioFoto {
+    position: relative;
+    left: 22%;
 }
 
 /* Andriaus stiliaus kodas: */
