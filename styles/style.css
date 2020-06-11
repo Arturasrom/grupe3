@@ -30,6 +30,15 @@
     border: 2px solid #2b475f;
 }
 
+/* .container-news {
+    position: absolute;
+    top: 150px;
+} */
+
+.large {
+    font-size: 30px;;
+}
+
 /* Aušros stiliaus kodas: */
 
 /* HEADER */
