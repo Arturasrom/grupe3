@@ -2,7 +2,7 @@
 <!-- Netrinam! -->
 
 <div class="col s12 m6 l3 center-align responsive-img">
-    <img src="images/feedback.jpg" alt="feedback nuotrauka">>
+    <img src="images/feedback.jpg" alt="feedback nuotrauka">
 </div>
 
 <div>
@@ -43,18 +43,24 @@
         }
     }
 
-    $sql = "SELECT Data, name, Age, feedback_text FROM feedback";
+    $sql = "SELECT Data , name, Age, feedback_text FROM feedback";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
         echo "<ul class=\"db_results\">";
         // output data of each row
+        echo "<table>";
         while ($row = $result->fetch_assoc()) {
-            echo "<li>" .  "Data: " . $row["name"] . " Age: " . $row["feedback_text"] . "<li>";
+            echo "<tr>";
+            echo 
+            // "<td>" .  "Data: " . $row["Data"]. "</td>".
+            "<td> Name: ". $row["name"] . "</td>
+            <td> Age: " . $row["Age"] . "
+            </td><td>" .  "Feedback: " . $row["feedback_text"]. "</td>";
+            echo "</tr>";
         }
+            echo "</table>";
         echo "</ul>";
-
-        echo "</table>";
     } else {
         echo "0 results";
     }
@@ -65,9 +71,9 @@
 input[type=text] {
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 8px ;
   box-sizing: border-box;
-  -ms-text-size-adjust:auto ;
+  
 }
 </style>
 
@@ -76,8 +82,8 @@ input[type=text] {
 <p class="c-align"></p>
 
 <form id="feedback_form">
-  <label for="Data">Date</label>
-  <input type="textData" id="Data" name="Data">
+  <!-- <label for="Data">Date</label>
+  <input type="textData" id="Data" name="Data"> -->
   <label for="lname">Name</label>
   <input type="Name" id="name" name="Name">
   <label for="Age">Your age</label>
