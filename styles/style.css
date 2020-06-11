@@ -121,24 +121,24 @@ h3{
     width: 20%;
     height: 100%;
     float: left;
-    border: none;
+    margin: 1px;
     outline: none;
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
+    font-weight: bold;
     background-color: grey;
 }
 
 .tabContainer .buttonContainer button:hover {
-    background-color: mediumblue;
+    background-color: #2b475f;
 }
 
 .tabContainer .tabPanel {
     height: 85%;
-    background-color: slategray;
-    color: blue;
+    background-color: lightgray;
+    color: #2b475f;
     text-align: center;
-    
     box-sizing: border-box;
     font-size: 22px;
     display: none;
