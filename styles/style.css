@@ -1,11 +1,11 @@
 /* Bendras stilius: */
 
 .nav-wrapper {
-    background: #2b475f;
+    background: #025a5a;
 }
 
 .page-footer {
-    background: #2b475f;
+    background: #025a5a;
 }
 
 /* Artūro stiliaus kodas: */
@@ -30,18 +30,27 @@
     border: 2px solid #2b475f; 
 }
 
+/* .container-news {
+    position: absolute;
+    top: 150px;
+} */
+
+.large {
+    font-size: 30px;;
+}
+
 /* Aušros stiliaus kodas: */
 
 /* HEADER */
 
 .brand-logo img {
-    height: 100px;
+    height: 60px;
 }
 
 @media only screen and (min-width: 601px) {
     nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
-        height: 100px;
-        line-height: 100px;
+        height: 60px;
+        line-height: 60px;
     }
 }
 
@@ -65,6 +74,31 @@ h1.title {
 .top {
     position: relative;
 }
+.main-button{
+    border: none;
+    color: #505050;
+    padding: 12px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    border-radius: 10%;
+}
+.main-button img{
+    width: 11%;
+}
+.active, .main-button:hover{
+    background-color: teal;
+    color: white;
+}
 .container {
     width: 100%;
     max-width: 800px;
@@ -73,15 +107,28 @@ h1.title {
 }
 
 .pamokos {
-    display: flex;
-    text-align: center;
+    /* display: flex; */
+    text-align: left;
     padding-left: 10px;
     padding-right: 10px;
+    object-fit: cover;
+    
 }
 
 .pamokos img {
     width: 100%;
+    object-fit: cover;
+    height: 300px;
 }
+.c-sharp, .java, .html img{
+    filter: grayscale(90%);
+}
+.parallax-container {
+    height: 300px;
+  }
+  .parallax img{
+      width: 100%;
+  }
 
 /* /////////////////////////// */
 
@@ -89,6 +136,9 @@ h1.title {
 
 footer .grey-text img {
     width: 10%;
+}
+h6.contacts{
+    line-height: 120%;
 }
 
 /* Luko stiliaus kodas: */
@@ -98,19 +148,19 @@ h3{
     color: black;
     top: 120px;
     left: 50%;
-    margin: 1px;
+    margin: 0;
 }
   
 .tabContainer{
     width: 100%;
-    height: 501px;
-    max-width: 860px;
+    height: 350px;
+    max-width: 800px;
     border-left: auto;
     border-right: auto;
 }
 
 .tabContainer .buttonContainer {
-    height: 10%;
+    height: 15%;
 }
 
 .tabContainer .buttonContainer button {
@@ -121,7 +171,6 @@ h3{
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
-    background-color: white;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     border-bottom: none;
@@ -129,17 +178,16 @@ h3{
 
 .tabContainer .buttonContainer button:hover {
     background-color: #2b475f;
+    color: white;
 }
 
 .tabContainer .tabPanel {
     height: 85%;
-    background-color: white;
-    color: black;
+    color: #2b475f;
     text-align: center;
     box-sizing: border-box;
     font-size: 22px;
     display: none;
-    left: 50%;
 }
 /* Andriaus stiliaus kodas: */
 
