@@ -1,7 +1,7 @@
 <?php include "header.php" ?>
 
 <div class="content">
-    <img src="https://picsum.photos/id/1/800/527?grayscale&blur=3">
+    <img class="fonas" src="https://picsum.photos/id/1/800/527?grayscale&blur=3">
     <h3>About us</h3>
     <div class="tabContainer">
         <div class="buttonContainer">
@@ -12,7 +12,7 @@
             <button onclick="showPanel(4,'transparent')">Povilas</button>
         </div>
         <div class="tabPanel">
-        <img class="profilioFoto" src="https://picsum.photos/200/300?random=1">
+        <img class="profilioFoto" src="https://picsum.photos/400/150?random=1">
             <ul></ul>
             <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
             <li>Saepe commodi amet, cum corrupti dicta quasi doloribus nisi</li>
@@ -21,7 +21,7 @@
             </ul>
         </div>
         <div class="tabPanel">
-        <img class="profilioFoto" src="https://picsum.photos/200/300?random=2">
+        <img class="profilioFoto" src="https://picsum.photos/400/150?random=2">
         <ul></ul>
             <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
             <li>Saepe commodi amet, cum corrupti dicta quasi doloribus nisi</li>
@@ -30,7 +30,7 @@
             </ul>
         </div>
         <div class="tabPanel">
-        <img class="profilioFoto" src="https://picsum.photos/200/300?random=3">
+        <img class="profilioFoto" src="https://picsum.photos/400/150?random=3">
         <ul></ul>
             <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
             <li>Saepe commodi amet, cum corrupti dicta quasi doloribus nisi</li>
@@ -39,7 +39,7 @@
             </ul>
         </div>
         <div class="tabPanel">
-        <img class="profilioFoto" src="https://picsum.photos/200/300?random=4">
+        <img class="profilioFoto" src="https://picsum.photos/400/150?random=4">
         <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
             <li>Saepe commodi amet, cum corrupti dicta quasi doloribus nisi</li>
             <li>reiciendis laboriosam culpa esse earum quidem architecto rem</li>
@@ -47,7 +47,7 @@
             </ul>
         </div>
         <div class="tabPanel">
-        <img class="profilioFoto" src="https://picsum.photos/200/300?random=5">
+        <img class="profilioFoto" src="https://picsum.photos/400/150?random=5">
             <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
             <li>Saepe commodi amet, cum corrupti dicta quasi doloribus nisi</li>
             <li>reiciendis laboriosam culpa esse earum quidem architecto rem</li>
