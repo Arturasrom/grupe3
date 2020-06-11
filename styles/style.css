@@ -12,6 +12,7 @@
 
 .news-h1 {
     text-align: center;
+    color: black;
 }
 
 .news-h5 {
@@ -30,6 +31,14 @@
     border: 2px solid #2b475f; 
 }
 
+/* .container-news {
+    position: absolute;
+    top: 150px;
+} */
+
+.news-bck-img {
+   
+}
 
 /* Aušros stiliaus kodas: */
 
