@@ -1,7 +1,9 @@
 <?php include "header.php" ?>
 <!-- Netrinam! -->
 
-<div class="col s12 m6 l3 center-align responsive-img">
+<div class="container"> 
+
+<div class="feedback col s12 m6 l3 center-align responsive-img">
     <img src="images/feedback.jpg" alt="feedback nuotrauka">
 </div>
 
@@ -66,18 +68,8 @@
     }
     $conn->close();
     ?>
+</div>
 
-<style> 
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px ;
-  box-sizing: border-box;
-  
-}
-</style>
-
-<body>
 
 <p class="c-align"></p>
 
@@ -86,14 +78,20 @@ input[type=text] {
   <input type="textData" id="Data" name="Data"> -->
   <label for="lname">Name</label>
   <input type="Name" id="name" name="Name">
+  
   <label for="Age">Your age</label>
   <input type="int" id="Age" name="Age">
+  <br>
   <br><label for="lname">Please enter Your feedback! </label>
   <input type="text" id="feedback_text" name="feedback_text"> <br>
 
-  <button>Submit <!DOCTYPE html></button>
+  <button>Submit! <!DOCTYPE html></button>
 </form>
 
+</div>
+<br>
+
+<br>
 
 <?php include "footer.php" ?>
 <!-- Netrinam! -->
