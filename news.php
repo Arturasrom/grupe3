@@ -1,16 +1,13 @@
 <?php include "header.php" ?>
 
 
-
-
-
 <div class="container">
 
     <!-- <img class="news-bck-img" src="images/header.jpg" alt="topphoto"> -->
 
     <div class="container-news">
 
-        <h1 class="news-h1">Our story</h1>
+        <h1 class="news-h1"> <i class="#607d8b blue-grey-text medium material-icons">school</i> Our story</h1>
 
         <div class="divider"></div>
 
@@ -31,10 +28,10 @@
                             <a class="btn tooltipped #90a4ae blue-grey lighten-2 " data-position="bottom" data-tooltip="+ - : * % ++ -- /">Operators</a>
                             <a class="btn tooltipped #90a4ae blue-grey lighten-2 " data-position="bottom" data-tooltip="Switch() {case x: break; case y: break;}">Switch</a>
                             <a class="btn tooltipped #90a4ae blue-grey lighten-2 " data-position="bottom" data-tooltip="int[] array = {I, love, coding} ">Arrays</a>
-                            <a class="btn tooltipped #90a4ae blue-grey lighten-2 " data-position="bottom" data-tooltip="enum Numbers {1, 2, 3}">Enums</a>
+                            <a class="btn tooltipped #90a4ae blue-grey lighten-2 " data-position="bottom" data-tooltip="enum Numbers {1, 2, 3}">Enums</a><br><br>
 
                             <div class="news-button">
-                                <button class="button-news" onclick="document.getElementById('img1').src='images/vidmantas_ty.png'">Say: AČIŪ!</button>
+                                <button class="button-news btn-floating btn-large blue-grey lighten-2 pulse" onclick="document.getElementById('img1').src='images/vidmantas_ty.png'">AČIŪ!</button>
 
                             </div>
                         </span>
@@ -60,19 +57,16 @@
                             <a class="btn tooltipped #90a4ae blue-grey lighten-2 " data-position="bottom" data-tooltip="CSV student = new CSV ();">Objects</a>
                             <a class="btn tooltipped #90a4ae blue-grey lighten-2 " data-position="bottom" data-tooltip="Child class inherits from parent class">Inheritance</a>
                             <a class="btn tooltipped #90a4ae blue-grey lighten-2 " data-position="bottom" data-tooltip="Classes are related by inheritance">Polymorphism</a>
-                            <a class="btn tooltipped #90a4ae blue-grey lighten-2 " data-position="bottom" data-tooltip="@Override">Overriding</a>
+                            <a class="btn tooltipped #90a4ae blue-grey lighten-2 " data-position="bottom" data-tooltip="@Override">Overriding</a><br><br>
                             <div class="news-button">
-                                <button class="button-news" onclick="document.getElementById('img2').src='images/viktorija_ty.png'">Say: AČIŪ!</button>
+                                <button class="button-news btn-floating btn-large blue-grey lighten-2 pulse" onclick="document.getElementById('img2').src='images/viktorija_ty.png'">AČIŪ!</button>
 
                             </div>
                         </span>
                     </div>
-
-
                 </div>
             </div>
         </div>
-
 
         <div class="col s12 m8 offset-m2 l6 offset-l3">
             <div class="card-panel grey lighten-5 z-depth-1">
@@ -93,7 +87,7 @@
                             <a class="btn tooltipped #90a4ae blue-grey lighten-2 " data-position="bottom" data-tooltip="Don't mix the sequence!">Stage All-->Commit-->Pull-->Push</a>
 
                             <div class="news-button">
-                                <button class="button-news" onclick="document.getElementById('img3').src='images/kazimiras_ty.png'">Say: AČIŪ!</button>
+                                <button class="button-news btn-floating btn-large blue-grey lighten-2 pulse" onclick="document.getElementById('img3').src='images/kazimiras_ty.png'">AČIŪ!</button>
                             </div>
                         </span>
                     </div>
