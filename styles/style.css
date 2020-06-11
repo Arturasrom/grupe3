@@ -85,7 +85,7 @@ h1.title {
     border-radius: 10%;
 }
 .main-button img{
-    width: 10%;
+    width: 11%;
 }
 .active, .main-button:hover{
     background-color: teal;
@@ -99,12 +99,10 @@ h1.title {
 }
 
 .pamokos {
-    /* display: flex; */
     text-align: left;
     padding-left: 10px;
     padding-right: 10px;
     object-fit: cover;
-    
 }
 
 .pamokos img {
@@ -115,12 +113,7 @@ h1.title {
 .c-sharp, .java, .html img{
     filter: grayscale(90%);
 }
-.parallax-container {
-    height: 300px;
-  }
-  .parallax img{
-      width: 100%;
-  }
+
 
 /* /////////////////////////// */
 
