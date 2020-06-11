@@ -160,13 +160,15 @@ h3{
     margin-right: 100px;
     margin-left: 80px;
     width: 50%;
+    font-size: 50px;
   }
 
 
   .db_results{
     margin: auto;
-    width: 50%;
+    width: 30px;
     border: 3px solid gray;
     padding: 10px;
+    font-size: 50px;
 
   }
