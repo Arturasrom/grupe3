@@ -71,9 +71,9 @@
 input[type=text] {
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 8px ;
   box-sizing: border-box;
-  font-size:100px ;
+  
 }
 </style>
 
@@ -82,12 +82,12 @@ input[type=text] {
 <p class="c-align"></p>
 
 <form id="feedback_form">
-  <label for="Data">Date</label>
-  <input type="textData" id="Data" name="Data">
+  <!-- <label for="Data">Date</label>
+  <input type="textData" id="Data" name="Data"> -->
   <label for="lname">Name</label>
   <input type="Name" id="name" name="Name">
-  <label for="Age">Your age</label>
-  <input type="int" id="Age" name="Age">
+  <!-- <label for="Age">Your age</label>
+  <input type="int" id="Age" name="Age"> -->
   <br><label for="lname">Please enter Your feedback! </label>
   <input type="text" id="feedback_text" name="feedback_text"> <br>
 
