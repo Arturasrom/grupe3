@@ -47,7 +47,7 @@
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
-        echo "<ul>";
+        echo "<ul class=\"db_results\">";
         // output data of each row
         while ($row = $result->fetch_assoc()) {
             echo "<li>" .  "Data: " . $row["name"] . " Age: " . $row["feedback_text"] . "<li>";
@@ -60,19 +60,34 @@
     }
     $conn->close();
     ?>
-</div>
 
+<style> 
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  -ms-text-size-adjust:auto ;
+}
+</style>
 
-<form action="">
+<body>
 
- Date:<input type="text" name="Data">
- Your name:<input type="text" name="name">
- Your age:<input type="number" name="Age">
- Please enter Your feedback:<input type="text" name="feedback_text">
-    
- <button>Submit feedback</button>
+<p class="c-align"></p>
 
+<form id="feedback_form">
+  <label for="Data">Date</label>
+  <input type="textData" id="Data" name="Data">
+  <label for="lname">Name</label>
+  <input type="Name" id="name" name="Name">
+  <label for="Age">Your age</label>
+  <input type="int" id="Age" name="Age">
+  <br><label for="lname">Please enter Your feedback! </label>
+  <input type="text" id="feedback_text" name="feedback_text"> <br>
+
+  <button>Submit <!DOCTYPE html></button>
 </form>
+
 
 <?php include "footer.php" ?>
 <!-- Netrinam! -->
