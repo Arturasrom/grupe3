@@ -1,5 +1,9 @@
 <?php include "header.php" ?>
 
+<ul class="breadcrumb">
+  <li><a href="http://localhost/grupe3/index.php">Home</a></li>
+  <li><b>About</b> </li>
+</ul>
 <div class="content">
     <img class="fonas" src="images/aboutus.jpg">
     <h1 class="title2"><i class="indigo-text darken-4 large material-icons">group</i>About us</h1>

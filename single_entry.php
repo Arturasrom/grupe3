@@ -14,6 +14,11 @@
   <li><a href="http://localhost/grupe3/about.php">About</a></li>
  
 </ul>
+<div class="Background">
+  <img src="C:\xampp\htdocs\grupe3\images\image_parallax3.jpg" alt="fonas">
+
+<div class="container">
+
 
 
 <div class="headeris">

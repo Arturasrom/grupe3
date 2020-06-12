@@ -1,5 +1,10 @@
 <?php include "header.php" ?>
-
+<ul class="breadcrumb">
+  <li><a href="http://localhost/grupe3/index.php">Home</a></li>
+  <li><a href="http://localhost/grupe3/about.php">About</a></li>
+  <li><a href="http://localhost/grupe3/single_entry.php">Your journey awaits</a></li>
+  <li><b>Our story</b> </li>
+</ul>
 <div class="parallax-container">
     <div class="parallax"><img src="images/image_parallax1.jpg"></div>
 </div>
