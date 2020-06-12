@@ -21,31 +21,31 @@
         <div class="tabPanel">
             <img src="images/5.jpg">
             <li>Age: 29 years. </li>
-            <li>Occupation: Investment and insurance specialist </li>
-            <li>Hobbies: Fitness, reading books, travel and gaming </li>
+            <li>Occupation: Investment and insurance specialist. </li>
+            <li>Hobbies: Fitness, reading books, travel and gaming. </li>
             <li>Why programming?: Because everybody told me to try it and I secretly wanted to try and learn it.  </li>
         </div>
         <div class="tabPanel">
             <img src="images/3.jpg">
-            <li>Amžius: 27m.</li>
-            <li>Profesija: Mechanikos inžinerija.</li>
-            <li>Hobiai: Sportas, motosportas.</li>
-            <li>Kodėl programavimas? Po 9 metų nusprendžiau, <br> kad vis tik noriu programuoti</li>
+            <li>Age: 27yo.</li>
+            <li>Occupation: Mechanical engineering.</li>
+            <li>Hobiai: Sports, motosport, traveling.</li>
+            <li>Why programming? I figured that I should have actually chosen programming 9 years ago.</li>
         </div>
         <div class="tabPanel">
             <img src="images/4.jpg">
-            <li>Amžius: </li>
-            <li>Profesija: </li>
-            <li>Hobiai: </li>
-            <li>Kodėl programavimas?: </li>
+            <li>Age: </li>
+            <li>Occupation: </li>
+            <li>Hobbies: </li>
+            <li>Why programming?: </li>
 
         </div>
         <div class="tabPanel">
             <img src="images/2.jpg">
-            <li>Age: <br>  40 years </li>
-            <li>Occupation: <br> People management</li>
-            <li>Hobbies: <br> Sauna, sports</li>
-            <li>Why programming??: <br> Why not? :) </li>
+            <li>Age: <br>  40 years. </li>
+            <li>Occupation: <br> People management.</li>
+            <li>Hobbies: <br> Sauna, sports.</li>
+            <li>Why programming?: <br> Why not? :) </li>
         </div>
     </div>
 </div>
