@@ -22,9 +22,9 @@
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="index.php">Home</a></li>
-        <li><a href="about.php">About</a></li>
+        <li><a href="about.php">About us</a></li>
         <li><a href="single_entry.php">Single entry</a></li>
-        <li><a href="news.php">News</a></li>
+        <li><a href="news.php">Our story</a></li>
         <li><a href="feedback.php">Feedback</a></li>
       </ul>
     </div>

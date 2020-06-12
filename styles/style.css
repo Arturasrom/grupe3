@@ -41,7 +41,7 @@
     ;
 }
 .parallax img{
-    filter: grayscale(90%);
+    filter: grayscale(80%);
 }
 
 /* Aušros stiliaus kodas: */
@@ -141,7 +141,9 @@ h1.title {
   .parallax img{
       width: 100%;
   }
-
+.comic-sans{
+    text-align: center;
+}
 /* /////////////////////////// */
 
 /* FOOTER */
@@ -237,7 +239,6 @@ h1.title2{
 }
 .content {
     position: relative;
-    padding-top: 4px;
 }
 
 .tabPanel li {
