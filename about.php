@@ -13,39 +13,39 @@
         </div>
         <div class="tabPanel">
             <img class="profilioFoto" src="images/1.jpg">
-                <li>Lorem ipsum dolor, sit amet consectetur <br>    adipisicing elit.</li>
-                <li>Saepe commodi amet, cum corrupti dicta <br>     quasi doloribus nisi</li>
-                <li>reiciendis laboriosam culpa esse earum <br>     quidem architecto rem</li>
-                <li>beatae sapiente eos illo magnam.</li>
+            <li>Amžius: <br> adipisicing elit.</li>
+            <li>Profesija: <br> quasi doloribus nisi</li>
+            <li>Hobiai: <br> quidem architecto rem</li>
+            <li>Kodėl programavimas?: <br> mhmhmhmh</li>
         </div>
         <div class="tabPanel">
             <img class="profilioFoto" src="images/5.jpg">
-                <li>Lorem ipsum dolor, sit amet consectetur <br>    adipisicing elit.</li>
-                <li>Saepe commodi amet, cum corrupti dicta <br>     quasi doloribus nisi</li>
-                <li>reiciendis laboriosam culpa esse earum <br>     quidem architecto rem</li>
-                <li>beatae sapiente eos illo magnam.</li>
+            <li>Amžius: <br> adipisicing elit.</li>
+            <li>Profesija: <br> quasi doloribus nisi</li>
+            <li>Hobiai: <br> quidem architecto rem</li>
+            <li>Kodėl programavimas?: <br> mhmhmhmh</li>
         </div>
         <div class="tabPanel">
             <img class="profilioFoto" src="images/3.jpg">
-                <li>Lorem ipsum dolor, sit amet consectetur <br>    adipisicing elit.</li>
-                <li>Saepe commodi amet, cum corrupti dicta <br>     quasi doloribus nisi</li>
-                <li>reiciendis laboriosam culpa esse earum <br>     quidem architecto rem</li>
-                <li>beatae sapiente eos illo magnam.</li>
+            <li>Amžius: 27m.</li>
+            <li>Profesija: Mechanikos inžinerija.</li>
+            <li>Hobiai: Sportas, motosportas.</li>
+            <li>Kodėl programavimas? Po 9 metų nusprendžiau, <br> kad vis tik noriu programuoti</li>
         </div>
         <div class="tabPanel">
             <img class="profilioFoto" src="images/4.jpg">
-                <li>Lorem ipsum dolor, sit amet consectetur <br>    adipisicing elit.</li>
-                <li>Saepe commodi amet, cum corrupti dicta <br>     quasi doloribus nisi</li>
-                <li>reiciendis laboriosam culpa esse earum <br>     quidem architecto rem</li>
-                <li>beatae sapiente eos illo magnam.</li>
+            <li>Amžius: <br> adipisicing elit.</li>
+            <li>Profesija: <br> quasi doloribus nisi</li>
+            <li>Hobiai: <br> quidem architecto rem</li>
+            <li>Kodėl programavimas?: <br> mhmhmhmh</li>
 
         </div>
         <div class="tabPanel">
             <img class="profilioFoto" src="images/2.jpg">
-                <li>Lorem ipsum dolor, sit amet consectetur <br>    adipisicing elit.</li>
-                <li>Saepe commodi amet, cum corrupti dicta <br>     quasi doloribus nisi</li>
-                <li>reiciendis laboriosam culpa esse earum <br>     quidem architecto rem</li>
-                <li>beatae sapiente eos illo magnam.</li>
+            <li>Amžius: <br> adipisicing elit.</li>
+            <li>Profesija: <br> quasi doloribus nisi</li>
+            <li>Hobiai: <br> quidem architecto rem</li>
+            <li>Kodėl programavimas?: <br> mhmhmhmh</li>
         </div>
     </div>
 </div>
