@@ -13,7 +13,7 @@
 
 
 <div class="headeris">
-<h1>Your journey awaits</h1>
+<h1 class="journey-text">Your journey awaits</h1>
 </div>
 <div class="card" >
 <div class="card-video-top">

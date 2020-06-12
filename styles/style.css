@@ -138,9 +138,6 @@ h1.title {
 .main-page {
     height: 300px;
   }
-  .parallax img{
-      width: 100%;
-  }
 .comic-sans{
     text-align: center;
 }
@@ -165,9 +162,23 @@ h6.contacts{
 
 .journey-on img{
     width: 100%;
+    filter: blur(2px);
+    filter: grayscale(90%);
+    object-fit: cover;
+    height: 300px;
+    margin: 0;
 }
 .journey-on{
     position: relative;
+}
+h1.journey-text{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
 }
 
 /* Luko stiliaus kodas: */
@@ -176,7 +187,7 @@ h1.title2{
     text-align: center;
     color: white;
     position: absolute;
-    top: 100px;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
@@ -300,11 +311,11 @@ ul.breadcrumb li b {
     text-decoration: none;
 }
 
-.headeris h1{
+/* .headeris h1{
     text-align: center;
 
 
-}
+} */
 
 .card{
     align-items: center;
