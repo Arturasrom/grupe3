@@ -40,7 +40,9 @@
     font-size: 30px;
     ;
 }
-
+.parallax img{
+    filter: grayscale(90%);
+}
 
 /* Aušros stiliaus kodas: */
 
@@ -89,9 +91,9 @@ h1.title {
     transition-duration: 0.4s;
     cursor: pointer;
     position: absolute;
-    top: 66%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 250%);
     margin: 0;
     border-radius: 3%;
 }
