@@ -100,7 +100,7 @@ h1.title {
 .main-button img{
     width: 11%;
 }
-.active, .main-button:hover{
+.main-button:hover{
     background-color: #203a76;
     color: white;
 }
