@@ -3,7 +3,7 @@
 <div class="parallax-container">
     <div class="parallax"><img src="images/image_parallax1.jpg"></div>
 </div>
-<h1 class="news-h1"> <i class="teal-text darken-4 large material-icons">school</i> Our story</h1>
+<h1 class="news-h1"> <i class="indigo-text darken-4 large material-icons">school</i> Our story</h1>
 
 <div class="container-news">
 

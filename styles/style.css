@@ -1,11 +1,11 @@
 /* Bendras stilius: */
 
 .nav-wrapper {
-    background: #025a5a;
+    background: #203a76;
 }
 
 .page-footer {
-    background: #025a5a;
+    background: #203a76;
 }
 
 /* Artūro stiliaus kodas: */
@@ -20,7 +20,7 @@
 }
 
 .news-h4 {
-    color: #3535ff;
+    color: #203a76;
     text-align: center;
 }
 
@@ -40,7 +40,9 @@
     font-size: 30px;
     ;
 }
-
+.parallax img{
+    filter: grayscale(90%);
+}
 
 /* Aušros stiliaus kodas: */
 
@@ -89,17 +91,17 @@ h1.title {
     transition-duration: 0.4s;
     cursor: pointer;
     position: absolute;
-    top: 66%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 250%);
     margin: 0;
-    border-radius: 10%;
+    border-radius: 3%;
 }
 .main-button img{
     width: 11%;
 }
 .active, .main-button:hover{
-    background-color: teal;
+    background-color: #203a76;
     color: white;
 }
 .container {
@@ -130,13 +132,10 @@ h1.title {
     filter: grayscale(90%);
 }
 
-.container{
-    padding: 5%;
-}
 .parallax-container {
     height: 700px;
 }
-.parallax-container2 {
+.main-page {
     height: 300px;
   }
   .parallax img{
@@ -204,7 +203,7 @@ h3{
 }
 
 .tabContainer .buttonContainer button:hover {
-    background-color: #025a5a;
+    background-color: #203a76;
     color: white;
 }
 
@@ -285,7 +284,9 @@ margin-top: 100px;
 .feedback img 
 {
     width: 100%;
-    
+    object-fit: cover;
+    height: 700px;
+    margin: 0;
     
 }
 
