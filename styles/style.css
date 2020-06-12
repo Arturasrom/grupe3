@@ -269,7 +269,10 @@ h1.title2{
 
 
 
-
+.background img{
+    position: relative;
+    width: 100%;
+}
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
