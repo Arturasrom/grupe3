@@ -4,8 +4,9 @@
 <div class="parallax-container">
   <h1 class="title">Six weeks with <br>Vilnius Coding School</h1>
   <div>
-    <button class="main-button"><img src="images/success-radio.png" alt=""><a target="_blank" href=""></a>
-      Press here</button>
+    <a href="https://youtube.com/watch?v=dQw4w9WgXcQ">
+    <button class="main-button"><img src="images/success-radio.png" alt="">
+      Press here</button></a>
   </div>
   <div class="parallax"><img src="images/header.jpg"></div>
 </div>
@@ -21,7 +22,7 @@
 
 
 <div class="pamokos">
-  <div class="parallax-container2">
+  <div class="parallax-container" >
     <div class="parallax"><img src="images/csharp.jpg"></div>
   </div>
 
@@ -33,7 +34,7 @@
     </div>
   </div>
 
-  <div class="parallax-container2">
+  <div class="parallax-container">
     <div class="parallax"><img src="images/java.jpg"></div>
   </div>
 
@@ -45,7 +46,7 @@
     </div>
   </div>
 
-  <div class="parallax-container2">
+  <div class="parallax-container">
     <div class="parallax"><img src="images/webdesign.jpg"></div>
   </div>
 
