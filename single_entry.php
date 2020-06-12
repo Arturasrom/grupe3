@@ -1,5 +1,8 @@
 
 <?php include "header.php" ?>
+<div class="journey-on">
+<img src="images/journey.jpg" alt="">
+</div>
 
 
 <div class="Background">
@@ -14,7 +17,7 @@
 
 
 <div class="headeris">
-<h1>Your journey awaits</h1>
+<h1 class="journey-text">Your journey awaits</h1>
 </div>
 <div class="card" >
 <div class="video-container">
