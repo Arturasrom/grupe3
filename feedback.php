@@ -1,7 +1,13 @@
 <?php include "header.php" ?>
 <!-- Netrinam! -->
 
-
+<ul class="breadcrumb">
+  <li><a href="http://localhost/grupe3/index.php">Home</a></li>
+  <li><a href="http://localhost/grupe3/about.php">About</a></li>
+  <li><a href="http://localhost/grupe3/single_entry.php">Your journey awaits</a></li>
+  <li><a href="http://localhost/grupe3/news.php">news</a></li>
+  <li><b>Feedback</b> </li>
+</ul>
 <div class="feedback col s12 m6 l3 center-align responsive-img">
     <img src="images/feedback1.jpg" alt="feedback nuotrauka">
     <h1 class="title"><i class="indigo-text darken-4 large material-icons">create</i>Give feedback </h1>

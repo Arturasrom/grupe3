@@ -276,7 +276,9 @@ h1.title2{
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
-    margin-left: -69%;
+    margin-top: auto;
+    margin-bottom: auto;
+    
 }
 ul.breadcrumb li {
     display: inline;

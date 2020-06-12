@@ -1,7 +1,11 @@
 <?php include "header.php" ?>
 <!-- Netrinam! -->
-
+<ul class="breadcrumb">
+  <li><a href="http://localhost/grupe3/index.php">Home</a></li>
+  <li><b>...</b> </li>
+</ul>
 <div class="parallax-container">
+
   <h1 class="title">Six weeks with <br>Vilnius Coding School</h1>
   <div>
     <a target="_blank" href="https://youtube.com/watch?v=dQw4w9WgXcQ">
