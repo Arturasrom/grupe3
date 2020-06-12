@@ -38,10 +38,10 @@
         </div>
         <div class="tabPanel">
             <img src="images/4.jpg">
-            <li>Age: </li>
-            <li>Occupation: </li>
-            <li>Hobbies: </li>
-            <li>Why programming?: </li>
+            <li>Age: 24yo.</li>
+            <li>Occupation: Transport manager </li>
+            <li>Hobbies: Football. </li>
+            <li>Why programming?: Because it is our future! </li>
 
         </div>
         <div class="tabPanel">
