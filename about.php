@@ -20,10 +20,10 @@
         </div>
         <div class="tabPanel">
             <img src="images/5.jpg">
-            <li>Amžius: </li>
-            <li>Profesija: </li>
-            <li>Hobiai: </li>
-            <li>Kodėl programavimas?: </li>
+            <li>Age: 29 years. </li>
+            <li>Occupation: Investment and insurance specialist </li>
+            <li>Hobbies: Fitness, reading books, travel and gaming </li>
+            <li>Why programming?: Because everybody told me to try it and I secretly wanted to try and learn it.  </li>
         </div>
         <div class="tabPanel">
             <img src="images/3.jpg">
