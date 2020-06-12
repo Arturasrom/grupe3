@@ -45,7 +45,7 @@
         15. What did you type in wrong to get it to crash? <br>
         14. There has to be something funky in your data. <br>
         13. I haven't touched that module in weeks! <br>
-        12. You must have the vrong version. <br>
+        12. You must have the wrong version. <br>
         11. It's just some unlucky coincidence. <br>
         10. I can't test everything! <br>
         9. THIS can't be the source of THAT. <br>
