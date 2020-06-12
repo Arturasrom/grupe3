@@ -13,17 +13,17 @@
         </div>
         <div class="tabPanel">
             <img src="images/1.jpg">
-            <li>Amžius: <br> adipisicing elit.</li>
-            <li>Profesija: <br> quasi doloribus nisi</li>
-            <li>Hobiai: <br> quidem architecto rem</li>
-            <li>Kodėl programavimas?: <br> mhmhmhmh</li>
+            <li>Amžius: </li>
+            <li>Profesija: </li>
+            <li>Hobiai: </li>
+            <li>Kodėl programavimas?: </li>
         </div>
         <div class="tabPanel">
             <img src="images/5.jpg">
-            <li>Amžius: <br> adipisicing elit.</li>
-            <li>Profesija: <br> quasi doloribus nisi</li>
-            <li>Hobiai: <br> quidem architecto rem</li>
-            <li>Kodėl programavimas?: <br> mhmhmhmh</li>
+            <li>Amžius: </li>
+            <li>Profesija: </li>
+            <li>Hobiai: </li>
+            <li>Kodėl programavimas?: </li>
         </div>
         <div class="tabPanel">
             <img src="images/3.jpg">
@@ -34,10 +34,10 @@
         </div>
         <div class="tabPanel">
             <img src="images/4.jpg">
-            <li>Amžius: <br> adipisicing elit.</li>
-            <li>Profesija: <br> quasi doloribus nisi</li>
-            <li>Hobiai: <br> quidem architecto rem</li>
-            <li>Kodėl programavimas?: <br> mhmhmhmh</li>
+            <li>Amžius: </li>
+            <li>Profesija: </li>
+            <li>Hobiai: </li>
+            <li>Kodėl programavimas?: </li>
 
         </div>
         <div class="tabPanel">
