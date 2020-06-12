@@ -16,9 +16,9 @@
 <div>
     <?php
     $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "webgrupe3db";
+    $username = "coktai_vcs200612-c";
+    $password = "VGuPKtQzM42K54mD";
+    $dbname = "coktai_vcs200612-c";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
