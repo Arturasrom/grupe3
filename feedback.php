@@ -26,6 +26,7 @@
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
+    $conn -> set_charset("utf8");
 
     if (isset($_GET["name"])) {
 
@@ -40,7 +41,7 @@
         if ($conn->query($sql) === TRUE) {
             echo "New record created successfully";
 
-            header("Location: http:/grupe3/feedback.php?status=success");
+            header("Location: feedback.php?status=success");
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
