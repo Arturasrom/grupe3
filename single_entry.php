@@ -1,4 +1,9 @@
 <?php include "header.php" ?>
+<ul class="breadcrumb">
+      <li><a href="http://localhost/grupe3/index.php">Home</a></li>
+      <li><a href="http://localhost/grupe3/about.php">About</a></li>
+      <li><b>Your journey awaits</b> </li>
+    </ul>
 <div class="journey-on">
   <img src="images/journey.jpg" alt="">
   <h1 class="journey-text"><i class="indigo-text darken-4 large material-icons">map</i>Your journey awaits</h1>
@@ -8,11 +13,7 @@
 <div class="Background">
 
   <div class="container">
-    <ul class="breadcrumb">
-      <li><a href="http://localhost/grupe3/index.php">Home</a></li>
-      <li><a href="http://localhost/grupe3/about.php">About</a></li>
-
-    </ul>
+    
     <div class="Background">
 
 
