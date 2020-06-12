@@ -2,7 +2,6 @@
 <!-- Netrinam! -->
 
 
-
 <div class="feedback col s12 m6 l3 center-align responsive-img">
     <img src="images/feedback1.jpg" alt="feedback nuotrauka">
     <h1 class="title"><i class="indigo-text darken-4 large material-icons">create</i>Give feedback </h1>
@@ -24,13 +23,13 @@
 
     if (isset($_GET["name"])) {
 
-        $Data = $_GET["Data"];
+        // $Data = $_GET["Data"];
         $name = $_GET["name"];
         $Age = $_GET["Age"];
         $feedback_text = $_GET["feedback_text"];
 
-        $sql = "INSERT INTO feedback (Data, name, Age, feedback_text)
-    VALUES ('$Data', '$name', '$Age', '$feedback_text')";
+        $sql = "INSERT INTO feedback ( name, Age, feedback_text)
+    VALUES ( '$name', '$Age', '$feedback_text')";
 
         if ($conn->query($sql) === TRUE) {
             echo "New record created successfully";
@@ -87,6 +86,7 @@
   <input type="text" id="feedback_text" name="feedback_text"> <br>
 
   <button>Submit! <!DOCTYPE html></button>
+
 </form>
 
 </div>
