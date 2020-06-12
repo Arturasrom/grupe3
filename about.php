@@ -1,58 +1,51 @@
 <?php include "header.php" ?>
 
 <div class="content">
-    <img class="fonas" src="https://picsum.photos/id/1/800/527?grayscale&blur=3">
-    <h3>About us</h3>
+    <img class="fonas" src="images/aboutus.jpg">
+    <h1 class="title2"><i class="indigo-text darken-4 large material-icons">group</i>About us</h1>
     <div class="tabContainer">
         <div class="buttonContainer">
-            <button onclick="showPanel(0,'transparent')">Artūras</button>
-            <button onclick="showPanel(1,'transparent')">Aušra</button>
-            <button onclick="showPanel(2,'transparent')">Lukas</button>
-            <button onclick="showPanel(3,'transparent')">Andrius</button>
-            <button onclick="showPanel(4,'transparent')">Povilas</button>
+            <button onclick="showPanel(0,'transparent')"><img src="images/1.jpg"> Artūras</button>
+            <button onclick="showPanel(1,'transparent')"><img src="images/5.jpg"> Aušra</button>
+            <button onclick="showPanel(2,'transparent')"><img src="images/3.jpg"> Lukas</button>
+            <button onclick="showPanel(3,'transparent')"><img src="images/4.jpg"> Andrius</button>
+            <button onclick="showPanel(4,'transparent')"><img src="images/2.jpg"> Povilas</button>
         </div>
         <div class="tabPanel">
-        <img class="profilioFoto" src="https://picsum.photos/400/150?random=1">
-            <ul></ul>
-            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-            <li>Saepe commodi amet, cum corrupti dicta quasi doloribus nisi</li>
-            <li>reiciendis laboriosam culpa esse earum quidem architecto rem</li>
-            <li>beatae sapiente eos illo magnam.</li>
-            </ul>
+            <img src="images/1.jpg">
+            <li>Age: 34 years. </li>
+            <li>Occupation: Sales manager.</li>
+            <li>Hobbies: Basketball, hiking.</li>
+            <li>Why programming?: I'm interested in programming because I have a passion for tech, creativity, and finding solutions. </li>
         </div>
         <div class="tabPanel">
-        <img class="profilioFoto" src="https://picsum.photos/400/150?random=2">
-        <ul></ul>
-            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-            <li>Saepe commodi amet, cum corrupti dicta quasi doloribus nisi</li>
-            <li>reiciendis laboriosam culpa esse earum quidem architecto rem</li>
-            <li>beatae sapiente eos illo magnam.</li>
-            </ul>
+            <img src="images/5.jpg">
+            <li>Amžius: </li>
+            <li>Profesija: </li>
+            <li>Hobiai: </li>
+            <li>Kodėl programavimas?: </li>
         </div>
         <div class="tabPanel">
-        <img class="profilioFoto" src="https://picsum.photos/400/150?random=3">
-        <ul></ul>
-            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-            <li>Saepe commodi amet, cum corrupti dicta quasi doloribus nisi</li>
-            <li>reiciendis laboriosam culpa esse earum quidem architecto rem</li>
-            <li>beatae sapiente eos illo magnam.</li>
-            </ul>
+            <img src="images/3.jpg">
+            <li>Amžius: 27m.</li>
+            <li>Profesija: Mechanikos inžinerija.</li>
+            <li>Hobiai: Sportas, motosportas.</li>
+            <li>Kodėl programavimas? Po 9 metų nusprendžiau, <br> kad vis tik noriu programuoti</li>
         </div>
         <div class="tabPanel">
-        <img class="profilioFoto" src="https://picsum.photos/400/150?random=4">
-        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-            <li>Saepe commodi amet, cum corrupti dicta quasi doloribus nisi</li>
-            <li>reiciendis laboriosam culpa esse earum quidem architecto rem</li>
-            <li>beatae sapiente eos illo magnam.</li>
-            </ul>
+            <img src="images/4.jpg">
+            <li>Amžius: </li>
+            <li>Profesija: </li>
+            <li>Hobiai: </li>
+            <li>Kodėl programavimas?: </li>
+
         </div>
         <div class="tabPanel">
-        <img class="profilioFoto" src="https://picsum.photos/400/150?random=5">
-            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-            <li>Saepe commodi amet, cum corrupti dicta quasi doloribus nisi</li>
-            <li>reiciendis laboriosam culpa esse earum quidem architecto rem</li>
-            <li>beatae sapiente eos illo magnam.</li>
-            </ul>
+            <img src="images/2.jpg">
+            <li>Age: <br>  40 years </li>
+            <li>Occupation: <br> People management</li>
+            <li>Hobbies: <br> Sauna, sports</li>
+            <li>Why programming??: <br> Why not? :) </li>
         </div>
     </div>
 </div>

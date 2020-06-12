@@ -1,12 +1,12 @@
 <?php include "header.php" ?>
 <!-- Netrinam! -->
 
-<div class="container"> 
 
 <div class="feedback col s12 m6 l3 center-align responsive-img">
-    <img src="images/feedback.jpg" alt="feedback nuotrauka">
+    <img src="images/feedback1.jpg" alt="feedback nuotrauka">
+    <h1 class="title"><i class="indigo-text darken-4 large material-icons">create</i>Give feedback </h1>
 </div>
-
+<div class="container"> 
 <div>
     <?php
     $servername = "localhost";
@@ -23,13 +23,13 @@
 
     if (isset($_GET["name"])) {
 
-        $Data = $_GET["Data"];
+        // $Data = $_GET["Data"];
         $name = $_GET["name"];
         $Age = $_GET["Age"];
         $feedback_text = $_GET["feedback_text"];
 
-        $sql = "INSERT INTO feedback (Data, name, Age, feedback_text)
-    VALUES ('$Data', '$name', '$Age', '$feedback_text')";
+        $sql = "INSERT INTO feedback ( name, Age, feedback_text)
+    VALUES ( '$name', '$Age', '$feedback_text')";
 
         if ($conn->query($sql) === TRUE) {
             echo "New record created successfully";
@@ -82,10 +82,13 @@
   <label for="Age">Your age</label>
   <input type="int" id="Age" name="Age">
   <br>
-  <br><label for="lname">Please enter Your feedback! </label>
-  <input type="text" id="feedback_text" name="feedback_text"> <br>
+  <br>
+  <label for="lname">Please enter Your feedback! </label>
+  <input type="text" id="feedback_text" name="feedback_text"> 
+  <br>
 
   <button>Submit! <!DOCTYPE html></button>
+
 </form>
 
 </div>
