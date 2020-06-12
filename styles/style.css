@@ -141,7 +141,9 @@ h1.title {
   .parallax img{
       width: 100%;
   }
-
+.comic-sans{
+    text-align: center;
+}
 /* /////////////////////////// */
 
 /* FOOTER */
@@ -229,7 +231,6 @@ h1.title2{
 }
 .content {
     position: relative;
-    padding-top: 4px;
 }
 
 .profilioFoto {

@@ -14,7 +14,7 @@
 
 <div class="container">
   <div class="middle-text">
-    <h4 class="joke grey-text text-darken-3">THE PROBLEM ABOUT BEING A PROGRAMMER</h4>
+    <h4 class="joke grey-text text-darken-3">The problem about being a Programmer</h4>
     <p><br>
     My mom said: "Honney, please go to the market and buy 1 bottle of milk. If they have eggs, bring 6"
 <br><br>
@@ -86,7 +86,7 @@
     <div class="middle-text">
       <p>
         Comic Sans MS is never an acceptable font. <br><br>
-        <p style="font-family: Comic Sans MS">Unless you are an 8 year old girl writing a poem about unicorns.</p>
+        <p class="comic-sans"style="font-family: Comic Sans MS">Unless you are an 8 year old girl writing a poem about unicorns.</p>
       </p>
     </div>
   </div>
