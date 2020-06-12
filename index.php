@@ -4,7 +4,7 @@
 <div class="parallax-container">
   <h1 class="title">Six weeks with <br>Vilnius Coding School</h1>
   <div>
-    <a href="https://youtube.com/watch?v=dQw4w9WgXcQ">
+    <a target="_blank" href="https://youtube.com/watch?v=dQw4w9WgXcQ">
     <button class="main-button"><img src="images/success-radio.png" alt="">
       Press here</button></a>
   </div>
