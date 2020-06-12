@@ -13,10 +13,10 @@
         </div>
         <div class="tabPanel">
             <img src="images/1.jpg">
-            <li>Amžius: </li>
-            <li>Profesija: </li>
-            <li>Hobiai: </li>
-            <li>Kodėl programavimas?: </li>
+            <li>Age: 34 years. </li>
+            <li>Occupation: Sales manager.</li>
+            <li>Hobbies: Basketball, hiking.</li>
+            <li>Why programming?: I'm interested in programming because I have a passion for tech, creativity, and finding solutions. </li>
         </div>
         <div class="tabPanel">
             <img src="images/5.jpg">
@@ -42,10 +42,10 @@
         </div>
         <div class="tabPanel">
             <img src="images/2.jpg">
-            <li>Amžius: 40m. </li>
-            <li>Profesija: Vadyba.</li>
-            <li>Hobiai: Pirtis, sportas.</li>
-            <li>Kodėl programavimas?: O kodel ne? :) </li>
+            <li>Age: <br>  40 years </li>
+            <li>Occupation: <br> People management</li>
+            <li>Hobbies: <br> Sauna, sports</li>
+            <li>Why programming??: <br> Why not? :) </li>
         </div>
     </div>
 </div>

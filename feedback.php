@@ -82,8 +82,10 @@
   <label for="Age">Your age</label>
   <input type="int" id="Age" name="Age">
   <br>
-  <br><label for="lname">Please enter Your feedback! </label>
-  <input type="text" id="feedback_text" name="feedback_text"> <br>
+  <br>
+  <label for="lname">Please enter Your feedback! </label>
+  <input type="text" id="feedback_text" name="feedback_text"> 
+  <br>
 
   <button>Submit! <!DOCTYPE html></button>
 
