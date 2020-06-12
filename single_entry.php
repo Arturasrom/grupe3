@@ -1,6 +1,10 @@
 
 <?php include "header.php" ?>
 
+
+<div class="Background">
+  <img src="C:\xampp\htdocs\grupe3\images\image_parallax3.jpg" alt="fonas">
+
 <div class="container">
 <ul class="breadcrumb">
   <li><a href="http://localhost/grupe3/index.php">Home</a></li>
@@ -87,7 +91,7 @@ Explore our site, discover our programs and come join us!
 </div>
   
 </div>
-                  
+</div>            
 
 
 
