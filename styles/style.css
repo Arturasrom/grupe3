@@ -163,6 +163,13 @@ h6.contacts{
     line-height: 120%;
 }
 
+.journey-on img{
+    width: 100%;
+}
+.journey-on{
+    position: relative;
+}
+
 /* Luko stiliaus kodas: */
 
 h1.title2{

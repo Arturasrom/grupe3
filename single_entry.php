@@ -1,5 +1,8 @@
 
 <?php include "header.php" ?>
+<div class="journey-on">
+<img src="images/journey.jpg" alt="">
+</div>
 
 <div class="container">
 <ul class="breadcrumb">
