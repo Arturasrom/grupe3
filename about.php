@@ -42,10 +42,10 @@
         </div>
         <div class="tabPanel">
             <img src="images/2.jpg">
-            <li>Age: <br>  40 years. </li>
-            <li>Occupation: <br> People management.</li>
-            <li>Hobbies: <br> Sauna, sports.</li>
-            <li>Why programming?: <br> Why not? :) </li>
+            <li>Age: 40 years. </li>
+            <li>Occupation: People management.</li>
+            <li>Hobbies: Sauna, sports.</li>
+            <li>Why programming?: Why not? :) </li>
         </div>
     </div>
 </div>
