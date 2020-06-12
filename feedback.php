@@ -77,14 +77,14 @@
   <!-- <label for="Data">Date</label>
   <input type="textData" id="Data" name="Data"> -->
   <label for="lname">Name</label>
-  <input type="Name" id="name" name="Name">
+  <input type="name" name="name">
   
   <label for="Age">Your age</label>
-  <input type="int" id="Age" name="Age">
+  <input type="int" name="Age">
   <br>
   <br>
   <label for="lname">Please enter Your feedback! </label>
-  <input type="text" id="feedback_text" name="feedback_text"> 
+  <input type="text"  name="feedback_text"> 
   <br>
 
   <button>Submit! <!DOCTYPE html></button>
