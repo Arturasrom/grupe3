@@ -42,10 +42,10 @@
         </div>
         <div class="tabPanel">
             <img src="images/2.jpg">
-            <li>Amžius: <br>  40m </li>
-            <li>Profesija: <br> Vadyba</li>
-            <li>Hobiai: <br> Pirtis, sportas</li>
-            <li>Kodėl programavimas?: <br> o kodel ne? :) </li>
+            <li>Age: <br>  40 years </li>
+            <li>Occupation: <br> People management</li>
+            <li>Hobbies: <br> Sauna, sports</li>
+            <li>Why programming??: <br> Why not? :) </li>
         </div>
     </div>
 </div>
