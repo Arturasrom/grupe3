@@ -4,6 +4,10 @@
 <img src="images/journey.jpg" alt="">
 </div>
 
+
+<div class="Background">
+  <img src="C:\xampp\htdocs\grupe3\images\image_parallax3.jpg" alt="fonas">
+
 <div class="container">
 <ul class="breadcrumb">
   <li><a href="http://localhost/grupe3/index.php">Home</a></li>
@@ -16,9 +20,8 @@
 <h1 class="journey-text">Your journey awaits</h1>
 </div>
 <div class="card" >
-<div class="card-video-top">
-<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
+<div class="video-container">
+<iframe width="420" height="345" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
   <div class="card-body">
     <p class="card-text">With close to 40 programs taught in English and over 100 taught in French, we are dedicated to providing high-quality education in the fields of business, the arts, cinema, culture, design, theater and many more. With decades of experience, our schools offer students academic degrees with a professional twist giving them a head start in today’s increasingly competitive work force.
@@ -90,7 +93,7 @@ Explore our site, discover our programs and come join us!
 </div>
   
 </div>
-                  
+</div>            
 
 
 
