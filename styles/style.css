@@ -179,6 +179,9 @@ h1.journey-text{
     transform: translate(-50%, -50%);
     margin: 0;
 }
+.card-content img{
+    width: 100%;
+}
 
 /* Luko stiliaus kodas: */
 
@@ -291,7 +294,7 @@ h1.title2{
     width: 100%;
 }
 ul.breadcrumb {
-    padding: 10px 16px;
+    padding: 0px 16px;
     list-style: none;
     margin-top: auto;
     margin-bottom: auto;

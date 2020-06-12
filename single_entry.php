@@ -1,9 +1,9 @@
 <?php include "header.php" ?>
 <ul class="breadcrumb">
-      <li><a href="http://localhost/grupe3/index.php">Home</a></li>
-      <li><a href="http://localhost/grupe3/about.php">About</a></li>
-      <li><b>Your journey awaits</b> </li>
-    </ul>
+  <li><a href="http://localhost/grupe3/index.php">Home</a></li>
+  <li><a href="http://localhost/grupe3/about.php">About</a></li>
+  <li><b>Your journey awaits</b> </li>
+</ul>
 <div class="journey-on">
   <img src="images/journey.jpg" alt="">
   <h1 class="journey-text"><i class="indigo-text darken-4 large material-icons">map</i>Your journey awaits</h1>
@@ -13,7 +13,7 @@
 <div class="Background">
 
   <div class="container">
-    
+
     <div class="Background">
 
 
@@ -41,24 +41,10 @@
         <div class="boxed">
 
           <div class="komanda">
-
-
-
             <div class="card horizontal mycard">
-              <div class="card-image">
-                <img src="https://picsum.photos/500/500">
-              </div>
               <div class="card-stacked">
                 <div class="card-content">
-                  <h3>
-                    KAZIMIRAS
-                  </h3>
-                  <p>Sometimes while having lessons we order pizza <a href="https://www.vilniuscoding.lt/">See yourself!</a>
-                    <br>Some more text<a href="https://www.vilniuscoding.lt/">discover yourself!</a>
-                  </p>
-                  <p2>
-                    Some more textSome more textSome more text
-                  </p2>
+                  <img src="images/webflyer.jpg" alt="">
                 </div>
               </div>
             </div>
@@ -68,22 +54,9 @@
 
 
             <div class="card horizontal mycard">
-              <div class="card-image">
-                <img src="https://picsum.photos/500/500">
-              </div>
               <div class="card-stacked">
                 <div class="card-content">
-                  <h3>
-                    VIDMANTAS
-                  </h3>
-                  <div class="row">
-                    <p>Some cool motivational words to atrract new students <a href="https://www.vilniuscoding.lt/">discover yourself!</a>
-                      <br>Some more text <a href="https://www.vilniuscoding.lt/">discover yourself!</a></p>
-                    <p2>
-                      Some more textSome more textSome more text
-                    </p2>
-
-                  </div>
+                  <img src="images/csharpflyer.jpg" alt="">
                 </div>
               </div>
             </div>
