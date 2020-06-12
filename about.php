@@ -1,8 +1,8 @@
 <?php include "header.php" ?>
 
 <div class="content">
-    <img class="fonas" src="https://picsum.photos/id/1/800/527?grayscale&blur=3">
-    <h3>About us</h3>
+    <img class="fonas" src="images/aboutus.jpg">
+    <h1 class="title2"><i class="indigo-text darken-4 large material-icons">group</i>About us</h1>
     <div class="tabContainer">
         <div class="buttonContainer">
             <button onclick="showPanel(0,'transparent')">Artūras</button>

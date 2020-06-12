@@ -5,7 +5,7 @@
 
 <div class="feedback col s12 m6 l3 center-align responsive-img">
     <img src="images/feedback1.jpg" alt="feedback nuotrauka">
-    <h1 class="title">Give feedback</h1>
+    <h1 class="title"><i class="indigo-text darken-4 large material-icons">create</i>Give feedback </h1>
 </div>
 <div class="container"> 
 <div>
