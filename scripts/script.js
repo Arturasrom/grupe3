@@ -38,7 +38,7 @@ function showPanel(panelIndex,colorCode) {
         node.style.color="";
     });
     tabButtons[panelIndex].style.backgroundColor=colorCode;
-    tabButtons[panelIndex].style.color="#025a5a";
+    tabButtons[panelIndex].style.color="white";
     tabPanels.forEach(function(node){
         node.style.display="none";
     });
